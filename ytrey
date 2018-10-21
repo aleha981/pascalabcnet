@@ -1,0 +1,6 @@
+var 
+  a,b: real; // катеты
+  c: real;   // гипотенуза
+  c := sqrt(a*a+b*b);
+  writeln('Гипотенуза = ',c);
+end.
